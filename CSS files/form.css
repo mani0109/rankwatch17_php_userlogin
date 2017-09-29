@@ -1,0 +1,44 @@
+.success_message, .error_message, .state_display, .city_display, #progress {
+	display: none;
+}
+#full_nameErr, #emailErr, #user_passwordErr, #confirm_passwordErr, #contact_noErr, #ageErr, #genderErr, #addressErr, #countryErr, #stateErr, #cityErr, #subjectErr, #email_toErr {
+	color: red;
+}
+.login-btn{
+	float: right; 
+	width: 32%;
+}
+.login-btn button{
+	width: 100% !important;
+}
+.login-head{
+	text-align: center;
+    font-weight: 700;
+}
+.loginFrom{
+	margin-top: 25% !important;
+}
+.heading-main {
+	display: inline-block;
+	float: right;
+	text-align: right;
+	margin: 10px 10px 10px 10px;
+} 
+html, body, .container-table {
+    height: 100%;
+}
+.container-table {
+    width:100%;
+	height:150px;
+	border:1px solid black;
+}
+.vertical-center-row {
+   	margin:auto;
+	padding:63px;
+	text-align:center;
+	margin-top: 150px;
+	font-size: 56px;
+}
+.mail-head {
+	text-align: center;
+}

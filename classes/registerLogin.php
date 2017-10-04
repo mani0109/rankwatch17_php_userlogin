@@ -151,8 +151,8 @@ class registerLogin
 			$mail->Port = 587;
 			$mail->SMTPDebug = 0;
 			$mail->SMTPAuth = true; 
-			$mail->Username = "ggoyal19@gmail.com";
-			$mail->Password = "W5A15EId9BA5K0KCCx_FCA";
+			$mail->Username = "MANDRILL USERNAME";
+			$mail->Password = "MANDRILL PASSWORD";
 
 			$mail->ClearAddresses();
 			$mail->ClearBCCs();
@@ -165,7 +165,7 @@ class registerLogin
 			$mail->AddAddress(trim($mailing_info['email_to']));
 			$mail->Subject = $mailing_info['subject'];
 			$mail->MsgHTML($mailing_info['message']);
-			$mail->setFrom('ajunakki707@gmail.com', $mailing_info['full_name']);
+			$mail->setFrom('example@gmail.com', $mailing_info['full_name']);
 			$mail->AddReplyTo('example@gmail.com');
 			// $mail->AddAttachment( $mailing_info['attachment'], 'abc.jpg');
 
